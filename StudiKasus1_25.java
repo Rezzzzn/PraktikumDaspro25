@@ -40,6 +40,7 @@ public class StudiKasus1_25 {
         } else {
             kurang = totalBayar - uangBayar;
             System.out.print("Uang tidak cukup, kurang Rp." + kurang);
-        }
-    }
+        } 
+        sc.close();
+    } 
 }
